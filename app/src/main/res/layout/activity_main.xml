@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.james.test.MainActivity">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/formLayout">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="2">-->
+            <!--<android.support.design.widget.TextInputLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<android.support.design.widget.TextInputEditText-->
+                    <!--android:id="@+id/firstName"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_width="match_parent"-->
+
+                    <!--android:maxLines="1"-->
+                    <!--android:hint="First Name"/>-->
+            <!--</android.support.design.widget.TextInputLayout>-->
+
+            <!--<android.support.design.widget.TextInputLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<android.support.design.widget.TextInputEditText-->
+                    <!--android:id="@+id/lastName"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:maxLines="1"-->
+                    <!--android:hint="Last Name"/>-->
+            <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:id="@+id/mobile"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:maxLines="1"-->
+                <!--android:hint="mobile number eg 254123456789"/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:id="@+id/email"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:maxLines="1"-->
+                <!--android:inputType="textEmailAddress"-->
+                <!--android:hint="email"/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:id="@+id/orderAmount"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:maxLines="1"-->
+                <!--android:hint="Order Amount"/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:id="@+id/itemDescription"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:maxLines="1"-->
+                <!--android:hint="Item Description"/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:id="@+id/postalCode"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:maxLines="1"-->
+                <!--android:hint="Postal Code"/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnSubmit"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Submit"/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
